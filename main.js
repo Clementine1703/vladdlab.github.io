@@ -28,6 +28,7 @@ button.addEventListener('click', () => {
 	comments.push(text.value);
 	localStorage.setItem('comments', JSON.stringify(comments));
 	text.value = '';
+	checkArea();
 })
 
 function checkArea() {
