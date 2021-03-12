@@ -18,7 +18,7 @@ else {
 
 checkArea();
 
-text.addEventListener('change', checkArea);
+text.addEventListener('input', checkArea);
 
 button.addEventListener('click', () => {
 	let el = document.createElement('p');
